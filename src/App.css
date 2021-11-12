@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+::-webkit-scrollbar {
+  height: 7px;
+  width: 6px;
+  
+}
+.MuiInputBase-input {
+  height: 100px;
+}
+.scroll {
+   background: #219EBC;
+
+}
+.scroll::-webkit-scrollbar {
+   width: 12px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #219EBC;
+   border-radius: 0px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+   border-radius: 0px;
+   background: #219EBC;
+   
+}
+/* sdljnvkslnv */
+.addNew::-webkit-scrollbar {
+  width: 0px;
+}
+
+.addNew::-webkit-scrollbar-track {
+  
+  border-radius: 0px;
+}
+
+.addNew::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background: rgb(214, 212, 212);
+  
+}
+
+
+
+.scrollTeam::-webkit-scrollbar {
+  height: 7px;
+}
+
+.scrollTeam::-webkit-scrollbar-track {
+  border-radius: 3px;
+}
+
+.scrollTeam::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: rgb(226, 219, 219); 
+}
+.scrollTeam::-webkit-scrollbar-thumb:hover {
+  background: rgb(196, 192, 192);
+}
+
+
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:white;
+  border-radius: 4px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(226, 219, 219);
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(196, 192, 192);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root{
+  height: 34px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
